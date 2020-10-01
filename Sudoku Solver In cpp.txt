@@ -12,7 +12,7 @@ bool usedInRow(int grid[N][N], int row, int number) {
   return false;
 }
  
-// returns whether or not "number" has been used in particular column
+// returns whether or not "number" has been used in particular column 451
 bool usedInCol(int grid[N][N], int col, int number) {
   for (int row = 0; row < N; row++)
     if (grid[row][col] == number)
